@@ -30,7 +30,7 @@ public class Order extends BaseEntity {
     private LocalDateTime orderDate;  //주문일
 
     @Enumerated(EnumType.STRING)
-    private OrderStatus status;   //주문상태
+    private OrderStatus orderStatus;   //주문상태
 
 
     //주문상품 엔티티와 일대일 매핑
